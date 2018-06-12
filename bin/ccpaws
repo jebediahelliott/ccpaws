@@ -2,4 +2,4 @@
 require "./lib/ccpaws"
 
 # Ccpaws::CLI.new.call
-Ccpaws::Scraper.scrape_index_page("https://www.centrecountypaws.org/dogs/adopt")
+Ccpaws::Scraper.scrape_profile_page("https://www.meetup.com/state-college-ruby/")

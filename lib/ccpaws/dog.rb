@@ -1,23 +1,23 @@
-class Ccpaws::Dog
+class Ccpaws::Group
 
-  attr_accessor :name, :breed, :age, :weight, :size, :age_range, :sex, :color, :bio, :url
+  attr_accessor :name, :url, :description
   @@all = []
 
   def self.all
     @@all
   end
 
-  def initialize(dog_hash)
-  dog_hash.each{ |key, value| self.send(("#{key}="), value)}
+  def initialize(group_hash)
+  group_hash.each{ |key, value| self.send(("#{key}="), value)}
   @@all << self
 end
 
-def self.create_from_collection(dog_array)
-  dog_array.each{ |hash| self.new(hash)}
+def self.create_from_collection(group_array)
+  group_array.each{ |hash| self.new(hash)}
 end
 
-def add_student_attributes(attributes_hash)
-  attributes_hash.each{ |key, value| self.send(("#{key}="), value)}
+def add_student_attributes(page_hash)
+  page_hash.each{ |key, value| self.send(("#{key}="), value)}
   self
 end
 
