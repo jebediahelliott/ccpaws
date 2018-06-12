@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 require "./lib/ccpaws"
 
-puts ";lkj"
-Ccpaws::CLI.new.call
+# Ccpaws::CLI.new.call
+Ccpaws::Scraper.scrape_index_page("https://www.centrecountypaws.org/dogs/adopt")
