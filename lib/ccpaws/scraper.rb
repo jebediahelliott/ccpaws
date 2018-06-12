@@ -7,10 +7,13 @@ class Ccpaws::Scraper
     list = doc.css(".groupCard")
     list.each do |card|
       group_cards << {
-      nane: card.css("h3").text.strip
+      nane: card.css("h3").text.strip,
+      members: card.css("p").text.strip,
+      url: card.css("a").attribute("href").value
     }
     binding.pry
     end
+    
 
 
   end
