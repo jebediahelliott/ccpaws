@@ -1,6 +1,6 @@
 class Ccpaws::Group
 
-  attr_accessor :name, :url, :description
+  attr_accessor :name, :url, :description, :members
   @@all = []
 
   def self.all
