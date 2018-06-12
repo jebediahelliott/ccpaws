@@ -3,3 +3,13 @@ require "./lib/ccpaws"
 
 # Ccpaws::CLI.new.call
 Ccpaws::Scraper.scrape_profile_page("https://www.meetup.com/state-college-ruby/")
+
+
+# on run
+# scrape each group and create an object for that group
+#     with name and url
+#
+# use that url to scrape group about me and make attr
+#
+# display list of groups
+# if group number is chosen display info

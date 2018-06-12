@@ -1,14 +1,17 @@
 class Ccpaws::Scraper
 
-  def self.scrape_index_page(index_url)
-    html = open(index_url)
+  def self.scrape_index_page
+    html = open("https://www.meetup.com/find/tech/?allMeetups=false&radius=10&userFreeform=State+College%2C+PA&mcId=c16801&mcName=State+College%2C+PA&sort=default")
     doc = Nokogiri::HTML(html)
+    group_cards = []
     list = doc.css(".groupCard")
     list.each do |card|
-      nane = card.css("h3").text
-      binding.pry
+      group_cards << {
+      nane: card.css("h3").text.strip
+    }
+    binding.pry
     end
-    student_index = []
+
 
   end
 
