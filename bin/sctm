@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require "./lib/ccpaws"
+require "./lib/state_college_tech_meets"
 
 Ccpaws::CLI.new.call
 

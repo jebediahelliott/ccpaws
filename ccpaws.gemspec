@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ccpaws/version"
+require "state_college_tech_meets/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ccpaws"
+  spec.name          = "state_college_tech_meets"
   spec.version       = Ccpaws::VERSION
   spec.authors       = ["'Jebediah Elliott'"]
   spec.email         = ["'jebediahelliott@gmail.com'"]
 
   spec.summary       = "summary"
   spec.description   = "description"
-  spec.homepage      = "https://github.com/jebediahelliott/ccpaws"
+  spec.homepage      = "https://github.com/jebediahelliott/state_college_tech_meets"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
