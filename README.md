@@ -7,7 +7,7 @@ The State College Tech Meetups Gem is a CLI application that will provide a list
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ccpaws'
+gem 'state_college_tech_meets'
 ```
 
 And then execute:
@@ -16,11 +16,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ccpaws
+    $ gem install state_college_tech_meets
 
 ## Usage
 
-In the terminal run 'bin/ccpaws' to start the application and then follow the prompts.
+In the terminal run 'bin/state_college_tech_meets' to start the application and then follow the prompts.
 
 ## Development
 
@@ -38,4 +38,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Ccpaws project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/'jebediahelliott'/ccpaws/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Ccpaws project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/'jebediahelliott'/state_college_tech_meets/blob/master/CODE_OF_CONDUCT.md).
