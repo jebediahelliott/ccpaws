@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 require "./lib/ccpaws"
 
-# Ccpaws::CLI.new.call
-Ccpaws::Scraper.scrape_profile_page("https://www.meetup.com/state-college-ruby/")
+Ccpaws::CLI.new.call
 
 
 # on run

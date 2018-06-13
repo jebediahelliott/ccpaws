@@ -18,6 +18,5 @@ class Ccpaws::Scraper
       doc = Nokogiri::HTML(html)
       card.description = doc.css(".group-description .chunk p").text
     end
-    binding.pry
   end
 end
