@@ -1,8 +1,6 @@
-# Ccpaws
+# State College Tech Meetups
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ccpaws`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The State College Tech Meetups Gem is a CLI application that will provide a list of various tech meetups in the State College, PA area. You can select an item from the list to get more information about each group.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In the terminal run 'bin/ccpaws' to start the application and then follow the prompts.
 
 ## Development
 
