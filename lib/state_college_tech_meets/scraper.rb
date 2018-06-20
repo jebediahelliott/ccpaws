@@ -12,11 +12,15 @@ class Ccpaws::Scraper
       url: card.css("a").attribute("href").value
     })
     end
+  end
+    # don't scrape for description until user requests a particular group
+    # make sure we never scrape twice for the same descrption
+    def self.more_info(url)
 
-    group_cards.each do |card|
-      html = open(card.url)
-      doc = Nokogiri::HTML(html)
-      card.description = doc.css(".group-description .chunk p").text
-    end
+        doc = Nokogiri::HTML(open(url))
+        doc.css(".group-description .chunk p").text
+
+
+
   end
 end

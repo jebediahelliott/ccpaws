@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ccpaws (0.1.0)
+    state_college_tech_meets (0.1.0)
       nokogiri
 
 GEM
@@ -22,9 +22,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  ccpaws!
   pry
   rake (~> 10.0)
+  state_college_tech_meets!
 
 BUNDLED WITH
    1.16.2

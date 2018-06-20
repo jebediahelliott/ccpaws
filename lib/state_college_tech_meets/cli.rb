@@ -1,5 +1,6 @@
 class Ccpaws::CLI
   def call
+    puts "loading... please wait"
     Ccpaws::Scraper.scrape
     menu
     more_info
